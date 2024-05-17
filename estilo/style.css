@@ -19,6 +19,7 @@ header > h1 {
     font-family: 'Passion One', Arial, Verdana, sans-serif;
     font-weight: bold;
     margin: 15px 10px 0px 10px;
+    font-variant: small-caps;
 }
 
 header a {
@@ -33,10 +34,6 @@ header a:hover {
 header > p {
     margin-top: 0px;
     font-size: 2vw;
-}
-
-span.title {
-    font-size: 0.7em;
 }
 
 main > p.poesia {
@@ -58,16 +55,18 @@ main > p.poesia {
 
 div#primeiro-background {
     background-image: url(../imagens/background001.jpg);
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
 
     color: white;
     padding: 10px;
+    text-shadow: 1px 1px 0px #0000004b;
+    box-shadow: inset 2px 2px 10px #0000006c;
 }
 
 #texto-2 {
     background-color: #0000009a;
-    max-width: 500px;
+    max-width: 50vw;
     
     margin: 25px;
     border-radius: 10px;
@@ -76,15 +75,17 @@ div#primeiro-background {
 
 #segundo-background {
     background-image: url(../imagens/background002.jpg);
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
     color: white;
     padding: 10px;
+    text-shadow: 1px 1px 0px #0000004b;
+    box-shadow: inset 2px 2px 10px #0000006c;
 }
 
 #texto-3 {
     background-color: #00000094;
-    max-width: 500px;
+    max-width: 50vw;
     margin: 15px;
     border-radius: 10px;
 }
